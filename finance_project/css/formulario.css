@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(to right, white, #e9eff5);
+    font-family: 'montserrat';
+    color: black;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    border: ridge 5px #BFDDF3;
+    padding: 3%;
+}
+
+form {
+    width: max-content;
+}
+
+header {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+.voltar {
+    color: black;
+    text-decoration: none;
+}
+
+.voltar:hover {
+    color: #8ab1cd;
+}
+
+.input{
+    border: none;
+    border-bottom: 2px solid #BFDDF3;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    width: 95%;
+    margin-bottom: 5%;
+}
+
+#submit, #update {
+    background-image: linear-gradient(to right, #e9eff5, #BFDDF3);
+    width: 95%;
+    border: none;
+    padding: 12px;
+    color: black;
+    font-size: 15;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5%;
+    align-self: center;
+}

@@ -1,0 +1,7 @@
+
+.d-flex {
+    display:flex;
+    position: fixed;
+    right: 20px;
+    top: 7px;
+    padding: 10px;}
